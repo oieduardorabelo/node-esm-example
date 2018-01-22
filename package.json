@@ -1,0 +1,11 @@
+{
+  "name": "node-esm-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
+  "license": "MIT",
+  "dependencies": {
+    "@std/esm": "0.19.7",
+    "express": "4.16.2"
+  }
+}
