@@ -1,5 +1,6 @@
-// código extraído da documentação do @std/esm
+// código extraído da documentação do esm
+// https://github.com/standard-things/esm#readme
 
 // entry.js
-require = require("@std/esm")(module);
-module.exports = require("./main.mjs").default;
+require = require("esm")(module);
+module.exports = require("./main.js").default;
