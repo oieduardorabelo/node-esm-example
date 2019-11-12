@@ -4,7 +4,7 @@
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
   "license": "MIT",
   "scripts": {
-    "start": "node entry.js"
+    "start": "node app/entry-esm.js"
   },
   "dependencies": {
     "esm": "^3.2.25",
