@@ -5,5 +5,5 @@ const config = {
 };
 
 server.listen(config.port, () =>
-  console.log(`ESM com esm em: http://localhost:${config.port}`)
+  console.log(`Node.js usando ES Modules com "esm" em: http://localhost:${config.port}`)
 );

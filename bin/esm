@@ -1,4 +1,6 @@
+#!/usr/bin/env node
+
 // código extraído da documentação do esm
 // https://github.com/standard-things/esm#readme
 require = require("esm")(module);
-module.exports = require("./entry.js").default;
+module.exports = require("../app/entry.js").default;

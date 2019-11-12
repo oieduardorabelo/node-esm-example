@@ -4,10 +4,13 @@
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com> (https://github.com/oieduardorabelo)",
   "license": "MIT",
   "scripts": {
-    "start": "node app/entry-esm.js"
+    "start": "bin/esm",
+    "test": "mocha --require esm --recursive **/*.test.js"
   },
   "dependencies": {
     "esm": "^3.2.25",
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "mocha": "6.2.2",
+    "supertest": "4.0.2"
   }
 }
